@@ -1,0 +1,209 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+$white: #fff;
+$link_color: #d2d2d2;
+$btn_top_background: #58B358;
+$blue: #00ccff;
+$dark_blue: #3f7ecd;
+$black: #333;
+
+.f_right{
+	float: right !important;
+}
+.f_left{
+	float: left !important;
+}
+.clr {
+	clear: both;
+}
+.tc{
+	text-align: center !important;
+}
+.w960{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+body{
+	font-size: 16px;
+	color: $black;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h3{
+	font-family: 'PT Sans', sans-serif;
+	color: $white; 
+	font-size: 1.7em;
+	line-height: 1.2em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+p{
+	color: $black;
+	font-size: 1em;
+	text-align: left;
+	font-weight: normal;
+}
+
+#section-0{
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	background-color: $white;
+	padding-bottom: 20px;
+	margin: 0 auto ;
+}
+
+/* Top */
+#top-header{
+	background: url("../img/top-bg.png")no-repeat center;
+	background-size: cover;
+	width: 100%;
+	min-height: 619px;
+	height: auto;
+	padding-bottom: 80px;
+}
+.logo{
+	margin-top: 10px;
+}
+.phone-bl{
+	margin: 30px 80px 0 0;
+}
+
+.top-phone{
+	font-size: 1.4em;
+	font-weight: 600;
+	margin: 0 0 0 25px;
+}
+.btn{
+	padding: 10px 20px;
+	background: $btn_top_background;
+	border: none !important;
+	font-size: 1.2em;
+	color: $white;
+	margin: 10px 0 20px 0;
+}
+.btn:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#top-header h1{
+	color: $white; 
+	font-size: 2.875em;
+	line-height: 1.1em;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 80px;
+  	text-shadow:#000 2px 2px 1px;
+
+
+}
+#top-header h2{
+	color: $blue; 
+	font-size: 1.775em;
+	line-height: 1.2em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+/* Top end  */
+
+
+/* Section-1 */
+#section-1{
+	@extend #section-0;
+	min-height: 206px;
+	margin-top: 20px;
+}
+#section-1 .fa{
+	text-align: center;
+	margin: 20px auto 0;
+	border: 0px solid #000;
+	display: block;
+}
+#section-1 p{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+/* Section-1 end*/
+
+
+/* Section-2 */
+#section-2{
+	@extend #section-0;
+	min-height: 150px;
+	background-color: $dark_blue;
+}
+#section-2 h3{
+	@extend h3;
+	margin-top: 45px;
+}
+/* Section-2 end*/
+
+/* Section-3 */
+#section-3{
+	@extend #section-0;
+	min-height: 435px;
+	
+}
+#section-3 table{
+	margin-top: 20px;
+}
+#section-3 table tr{
+	height: 3.75em;
+}
+#section-3 table td{
+	padding: 10px 0;
+}
+#section-3 .fa{
+	float: left;
+	text-align: left;
+	color: $dark_blue;
+	margin-right: 20px;
+}
+#section-3 p{
+	text-align: left;
+}
+/* Section-3 end*/
+
+/* Section-4 */
+#section-4{
+	@extend #section-0;
+	min-height: 1000px;
+	background-color: #ccc;
+}
+#section-4 h3{
+	@extend h3;
+	color: $black;
+	margin-top: 45px;
+}
+/* Section-4 end*/
+
+
+/* Foo */
+.foo{
+	min-height: 100px;
+	background-color: #333;
+	color: $white;
+	padding: 40px 0;
+	margin-top: 30%;
+	text-align: center;
+}
+
+
+
+

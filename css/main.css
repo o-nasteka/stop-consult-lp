@@ -1,0 +1,295 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, #section-2 h3, #section-4 h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 16, ../sass/main.scss */
+.f_right {
+  float: right !important;
+}
+
+/* line 19, ../sass/main.scss */
+.f_left {
+  float: left !important;
+}
+
+/* line 22, ../sass/main.scss */
+.clr {
+  clear: both;
+}
+
+/* line 25, ../sass/main.scss */
+.tc {
+  text-align: center !important;
+}
+
+/* line 28, ../sass/main.scss */
+.w960 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 33, ../sass/main.scss */
+body {
+  font-size: 16px;
+  color: #333;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* line 39, ../sass/main.scss */
+h3, #section-2 h3, #section-4 h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-size: 1.7em;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* line 50, ../sass/main.scss */
+p {
+  color: #333;
+  font-size: 1em;
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 57, ../sass/main.scss */
+#section-0, #section-1, #section-2, #section-3, #section-4 {
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  background-color: #fff;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+/* Top */
+/* line 67, ../sass/main.scss */
+#top-header {
+  background: url("../img/top-bg.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 619px;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+/* line 75, ../sass/main.scss */
+.logo {
+  margin-top: 10px;
+}
+
+/* line 78, ../sass/main.scss */
+.phone-bl {
+  margin: 30px 80px 0 0;
+}
+
+/* line 82, ../sass/main.scss */
+.top-phone {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 0 0 0 25px;
+}
+
+/* line 87, ../sass/main.scss */
+.btn {
+  padding: 10px 20px;
+  background: #58B358;
+  border: none !important;
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px 0 20px 0;
+}
+
+/* line 95, ../sass/main.scss */
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 100, ../sass/main.scss */
+#top-header h1 {
+  color: #fff;
+  font-size: 2.875em;
+  line-height: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 80px;
+  text-shadow: #000 2px 2px 1px;
+}
+
+/* line 111, ../sass/main.scss */
+#top-header h2 {
+  color: #00ccff;
+  font-size: 1.775em;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+/* Top end  */
+/* Section-1 */
+/* line 125, ../sass/main.scss */
+#section-1 {
+  min-height: 206px;
+  margin-top: 20px;
+}
+
+/* line 130, ../sass/main.scss */
+#section-1 .fa {
+  text-align: center;
+  margin: 20px auto 0;
+  border: 0px solid #000;
+  display: block;
+}
+
+/* line 136, ../sass/main.scss */
+#section-1 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Section-1 end*/
+/* Section-2 */
+/* line 146, ../sass/main.scss */
+#section-2 {
+  min-height: 150px;
+  background-color: #3f7ecd;
+}
+
+/* line 151, ../sass/main.scss */
+#section-2 h3 {
+  margin-top: 45px;
+}
+
+/* Section-2 end*/
+/* Section-3 */
+/* line 158, ../sass/main.scss */
+#section-3 {
+  min-height: 435px;
+}
+
+/* line 163, ../sass/main.scss */
+#section-3 table {
+  margin-top: 20px;
+}
+
+/* line 166, ../sass/main.scss */
+#section-3 table tr {
+  height: 3.75em;
+}
+
+/* line 169, ../sass/main.scss */
+#section-3 table td {
+  padding: 10px 0;
+}
+
+/* line 172, ../sass/main.scss */
+#section-3 .fa {
+  float: left;
+  text-align: left;
+  color: #3f7ecd;
+  margin-right: 20px;
+}
+
+/* line 178, ../sass/main.scss */
+#section-3 p {
+  text-align: left;
+}
+
+/* Section-3 end*/
+/* Section-4 */
+/* line 184, ../sass/main.scss */
+#section-4 {
+  min-height: 1000px;
+  background-color: #ccc;
+}
+
+/* line 189, ../sass/main.scss */
+#section-4 h3 {
+  color: #333;
+  margin-top: 45px;
+}
+
+/* Section-4 end*/
+/* Foo */
+/* line 198, ../sass/main.scss */
+.foo {
+  min-height: 100px;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 30%;
+  text-align: center;
+}
