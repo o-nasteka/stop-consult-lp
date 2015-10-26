@@ -1,0 +1,27 @@
+{
+  "name": "stop_dolg_consult_lp",
+  "dependencies": {
+    "jquery": "1.11",
+    "components-font-awesome": "~4.4.0"
+  },
+  "homepage": "https://github.com/o-nasteka/stop-consult-lp",
+  "authors": [
+    "Oleg Nasteka <oleg.nasteka@gmail.com>"
+  ],
+  "description": "Stop Dolg Consult land",
+  "main": "bower.json",
+  "moduleType": [],
+  "keywords": [
+    "Stop",
+    "Dolg"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "/app/bower",
+    "test",
+    "tests"
+  ]
+}
